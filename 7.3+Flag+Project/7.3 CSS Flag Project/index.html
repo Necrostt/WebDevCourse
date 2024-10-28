@@ -11,14 +11,14 @@
         height: 600px;
         width: 900px;
       }
-      #middle-stripe {
+      .flag div {
         background-color: #002868;
         height: 50%;
         width: 100%;
         position: absolute;
         top: 25%;
       }
-      #circle{
+      .flag > div > div{
         background-color: white;
         height: 200px;
         width: 200px;
@@ -30,9 +30,10 @@
       p{
         text-align: center;
         font-size: 4rem;
-      }
-      #top-text{
         color: white;
+      }
+      .flag > div div p{
+        color: black;
       }
     </style>
   </head>
@@ -49,9 +50,9 @@ https://appbrewery.github.io/flag-of-laos/
 
   <body>
     <div class="flag">
-      <p id="top-text">The Flag</p>
-      <div id="middle-stripe">
-        <div id="circle">
+      <p>The Flag</p>
+      <div>
+        <div>
           <p>of Laos</p>
         </div>
       </div>
